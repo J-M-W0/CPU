@@ -1,6 +1,8 @@
 # CPU
 My Self-Made CPU with Logisim inside *cpu.circ*
 
+# How to view it?
+- To open the file *cpu.cir* with the application ***Logisim***. Which is a free software written in Java.
 
 # Each file explanation 
 
@@ -9,7 +11,7 @@ My Self-Made CPU with Logisim inside *cpu.circ*
 - output **sum** (1-bit)
 - output **carry** (1-bit)
 - Possible values:
-  
+
 | A | B | sum | carry |
 | :-- | :-- | :-- | :-- |
 | 0 | 0 | 0 | 0 |

@@ -119,3 +119,6 @@ vendor/
 *.rar
 *.7z
 
+# Ignore custom files
+.help
+
