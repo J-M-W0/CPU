@@ -2366,4 +2366,132 @@
       <a name="inputs" val="2"/>
     </comp>
   </circuit>
+  <circuit name="active low SR latch">
+    <a name="circuit" val="active low SR latch"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(240,300)" to="(430,300)"/>
+    <wire from="(280,260)" to="(280,330)"/>
+    <wire from="(60,70)" to="(120,70)"/>
+    <wire from="(60,40)" to="(120,40)"/>
+    <wire from="(380,350)" to="(430,350)"/>
+    <wire from="(380,200)" to="(430,200)"/>
+    <wire from="(280,260)" to="(430,260)"/>
+    <wire from="(240,220)" to="(240,300)"/>
+    <wire from="(240,220)" to="(320,220)"/>
+    <wire from="(430,300)" to="(430,350)"/>
+    <wire from="(180,370)" to="(320,370)"/>
+    <wire from="(180,180)" to="(320,180)"/>
+    <wire from="(430,200)" to="(430,260)"/>
+    <wire from="(280,330)" to="(320,330)"/>
+    <wire from="(430,200)" to="(500,200)"/>
+    <wire from="(430,350)" to="(500,350)"/>
+    <comp lib="0" loc="(60,70)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(380,350)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(120,40)" name="Tunnel">
+      <a name="label" val="S"/>
+    </comp>
+    <comp lib="0" loc="(500,200)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="pull" val="up"/>
+      <a name="label" val="Q"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(60,40)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(180,370)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="R"/>
+    </comp>
+    <comp lib="0" loc="(180,180)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="S"/>
+    </comp>
+    <comp lib="0" loc="(500,350)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="pull" val="down"/>
+      <a name="label" val="Q'"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(380,200)" name="NAND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(120,70)" name="Tunnel">
+      <a name="label" val="R"/>
+    </comp>
+  </circuit>
+  <circuit name="active high SR latch">
+    <a name="circuit" val="active high SR latch"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(240,300)" to="(430,300)"/>
+    <wire from="(280,260)" to="(280,330)"/>
+    <wire from="(60,70)" to="(120,70)"/>
+    <wire from="(60,40)" to="(120,40)"/>
+    <wire from="(240,220)" to="(330,220)"/>
+    <wire from="(180,370)" to="(330,370)"/>
+    <wire from="(180,180)" to="(330,180)"/>
+    <wire from="(280,330)" to="(330,330)"/>
+    <wire from="(280,260)" to="(430,260)"/>
+    <wire from="(240,220)" to="(240,300)"/>
+    <wire from="(430,300)" to="(430,350)"/>
+    <wire from="(430,200)" to="(430,260)"/>
+    <wire from="(430,200)" to="(500,200)"/>
+    <wire from="(430,350)" to="(500,350)"/>
+    <wire from="(390,200)" to="(430,200)"/>
+    <wire from="(390,350)" to="(430,350)"/>
+    <comp lib="1" loc="(390,200)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(60,40)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(120,70)" name="Tunnel">
+      <a name="label" val="R"/>
+    </comp>
+    <comp lib="1" loc="(390,350)" name="NOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(180,180)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="R"/>
+    </comp>
+    <comp lib="0" loc="(120,40)" name="Tunnel">
+      <a name="label" val="S"/>
+    </comp>
+    <comp lib="0" loc="(500,350)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="pull" val="down"/>
+      <a name="label" val="Q'"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(500,200)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="pull" val="down"/>
+      <a name="label" val="Q"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(60,70)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(180,370)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="S"/>
+    </comp>
+  </circuit>
 </project>
