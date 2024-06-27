@@ -15341,4 +15341,172 @@
       <a name="label" val="A = B"/>
     </comp>
   </circuit>
+  <circuit name="16 bit IR">
+    <a name="circuit" val="16 bit IR"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <text font-family="FiraCode Nerd Font" font-size="9" font-weight="bold" text-anchor="middle" x="196" y="222">OUT</text>
+      <path d="M158,233 Q162,243 166,233" fill="none" stroke="#808080" stroke-width="2"/>
+      <text font-family="FiraCode Nerd Font" font-size="9" font-weight="bold" text-anchor="middle" x="159" y="275">IR</text>
+      <text font-family="FiraCode Nerd Font" font-size="9" font-weight="bold" text-anchor="middle" x="189" y="307">IN</text>
+      <text font-family="FiraCode Nerd Font" font-size="9" font-weight="bold" text-anchor="middle" x="165" y="262">  16-Bit</text>
+      <text font-family="FiraCode Nerd Font" font-size="9" font-weight="bold" text-anchor="middle" x="247" y="263">SET</text>
+      <rect fill="none" height="59" stroke="#000000" stroke-width="2" width="89" x="141" y="231"/>
+      <circ-port height="8" pin="170,110" width="8" x="186" y="286"/>
+      <circ-port height="8" pin="170,160" width="8" x="226" y="256"/>
+      <circ-port height="10" pin="480,110" width="10" x="185" y="225"/>
+      <circ-anchor facing="east" height="6" width="6" x="187" y="227"/>
+    </appear>
+    <wire from="(210,370)" to="(240,370)"/>
+    <wire from="(210,340)" to="(240,340)"/>
+    <wire from="(420,110)" to="(480,110)"/>
+    <wire from="(170,110)" to="(240,110)"/>
+    <wire from="(170,160)" to="(240,160)"/>
+    <wire from="(290,340)" to="(330,340)"/>
+    <comp lib="0" loc="(170,160)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="pull" val="down"/>
+    </comp>
+    <comp lib="0" loc="(240,160)" name="Tunnel">
+      <a name="label" val="enable"/>
+    </comp>
+    <comp lib="0" loc="(210,370)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="enable"/>
+    </comp>
+    <comp lib="0" loc="(330,340)" name="Tunnel">
+      <a name="width" val="16"/>
+      <a name="label" val="output"/>
+    </comp>
+    <comp loc="(290,340)" name="2 bytes memory cell"/>
+    <comp lib="0" loc="(420,110)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="output"/>
+    </comp>
+    <comp lib="0" loc="(170,110)" name="Pin">
+      <a name="width" val="16"/>
+      <a name="tristate" val="false"/>
+      <a name="pull" val="down"/>
+    </comp>
+    <comp lib="0" loc="(240,110)" name="Tunnel">
+      <a name="width" val="16"/>
+      <a name="label" val="input"/>
+    </comp>
+    <comp lib="0" loc="(210,340)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="16"/>
+      <a name="label" val="input"/>
+    </comp>
+    <comp lib="0" loc="(480,110)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="16"/>
+      <a name="tristate" val="false"/>
+      <a name="pull" val="down"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+  </circuit>
+  <circuit name="7 segment display demo">
+    <a name="circuit" val="7 segment display demo"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(130,570)" to="(190,570)"/>
+    <wire from="(130,450)" to="(190,450)"/>
+    <wire from="(220,450)" to="(280,450)"/>
+    <wire from="(220,570)" to="(280,570)"/>
+    <wire from="(210,400)" to="(210,480)"/>
+    <wire from="(210,540)" to="(210,620)"/>
+    <wire from="(200,400)" to="(200,480)"/>
+    <wire from="(200,540)" to="(200,620)"/>
+    <wire from="(220,540)" to="(220,570)"/>
+    <wire from="(190,450)" to="(190,480)"/>
+    <wire from="(220,450)" to="(220,480)"/>
+    <wire from="(190,540)" to="(190,570)"/>
+    <wire from="(130,620)" to="(200,620)"/>
+    <wire from="(130,400)" to="(200,400)"/>
+    <wire from="(210,400)" to="(280,400)"/>
+    <wire from="(210,620)" to="(280,620)"/>
+    <comp lib="6" loc="(577,492)" name="Text">
+      <a name="text" val="4"/>
+    </comp>
+    <comp lib="6" loc="(587,488)" name="Text">
+      <a name="text" val="|"/>
+      <a name="font" val="SansSerif plain 28"/>
+    </comp>
+    <comp lib="6" loc="(598,520)" name="Text">
+      <a name="text" val="6"/>
+    </comp>
+    <comp lib="6" loc="(565,522)" name="Text">
+      <a name="text" val="|"/>
+      <a name="font" val="SansSerif plain 28"/>
+    </comp>
+    <comp lib="6" loc="(554,477)" name="Text">
+      <a name="text" val="2"/>
+    </comp>
+    <comp lib="6" loc="(576,547)" name="Text">
+      <a name="text" val="7"/>
+    </comp>
+    <comp lib="5" loc="(130,400)" name="Button">
+      <a name="label" val="2"/>
+    </comp>
+    <comp lib="5" loc="(130,450)" name="Button">
+      <a name="label" val="4"/>
+    </comp>
+    <comp lib="6" loc="(550,516)" name="Text">
+      <a name="text" val="5"/>
+    </comp>
+    <comp lib="6" loc="(575,539)" name="Text">
+      <a name="text" val="-"/>
+      <a name="font" val="SansSerif plain 28"/>
+    </comp>
+    <comp lib="5" loc="(280,400)" name="Button">
+      <a name="facing" val="west"/>
+      <a name="label" val="1"/>
+    </comp>
+    <comp lib="6" loc="(575,469)" name="Text">
+      <a name="text" val="-"/>
+      <a name="font" val="SansSerif plain 28"/>
+    </comp>
+    <comp lib="5" loc="(280,450)" name="Button">
+      <a name="facing" val="west"/>
+      <a name="label" val="3"/>
+    </comp>
+    <comp lib="5" loc="(190,480)" name="7-Segment Display"/>
+    <comp lib="6" loc="(587,524)" name="Text">
+      <a name="text" val="|"/>
+      <a name="font" val="SansSerif plain 28"/>
+    </comp>
+    <comp lib="6" loc="(577,508)" name="Text">
+      <a name="text" val="-"/>
+      <a name="font" val="SansSerif plain 28"/>
+    </comp>
+    <comp lib="5" loc="(280,620)" name="Button">
+      <a name="facing" val="west"/>
+      <a name="label" val="6"/>
+    </comp>
+    <comp lib="5" loc="(130,570)" name="Button">
+      <a name="label" val="5"/>
+    </comp>
+    <comp lib="5" loc="(280,570)" name="Button">
+      <a name="facing" val="west"/>
+      <a name="label" val="dot"/>
+    </comp>
+    <comp lib="6" loc="(565,491)" name="Text">
+      <a name="text" val="|"/>
+      <a name="font" val="SansSerif plain 28"/>
+    </comp>
+    <comp lib="6" loc="(575,449)" name="Text">
+      <a name="text" val="1"/>
+    </comp>
+    <comp lib="6" loc="(598,478)" name="Text">
+      <a name="text" val="3"/>
+    </comp>
+    <comp lib="5" loc="(130,620)" name="Button">
+      <a name="label" val="7"/>
+    </comp>
+  </circuit>
 </project>
