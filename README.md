@@ -9,6 +9,7 @@ My Self-Made CPU with Logisim inside *cpu.circ*
 - output **sum** (1-bit)
 - output **carry** (1-bit)
 - Possible values:
+  
 | A | B | sum | carry |
 | :-- | :-- | :-- | :-- |
 | 0 | 0 | 0 | 0 |
@@ -20,6 +21,7 @@ My Self-Made CPU with Logisim inside *cpu.circ*
 - 1-bit full adder, which takes three inputs **A**, **B**, and **carry in**
 - two 1-bit outputs **sum** and **carry out**
 - Possible values:
+
 | A | B | carry in | sum | carry out |
 | :-- | :-- | :-- | :-- | :-- |
 | 0 | 0 | 0 | 0 | 0 |
@@ -30,6 +32,7 @@ My Self-Made CPU with Logisim inside *cpu.circ*
 | 1 | 0 | 1 | 0 | 1 |
 | 1 | 1 | 0 | 0 | 1 |
 | 1 | 1 | 1 | 1 | 1 |
+
 - In short, if the three inputs are all *0*, then the two outputs will all be *0*.
 - If the three inputs have one *1*, then the **sum** will be *1* and **carry out** will be *0*.
 - If the three inputs have two *1*s, then the **sum** will be *0* and **carry out** will be *1*.
