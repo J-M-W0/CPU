@@ -2607,9 +2607,9 @@
       <text font-family="Fira Code" font-size="9" font-weight="bold" text-anchor="middle" x="212" y="221">1-Bit</text>
       <rect fill="none" height="82" stroke="#000000" stroke-width="2" width="50" x="190" y="201"/>
       <text font-family="Fira Code" font-size="9" font-weight="bold" text-anchor="middle" x="211" y="276">Cell</text>
-      <text font-family="SansSerif" font-size="9" font-weight="bold" text-anchor="middle" x="175" y="233">SET</text>
+      <text font-family="SansSerif" font-size="9" font-weight="bold" text-anchor="middle" x="179" y="233">IN</text>
       <text font-family="SansSerif" font-size="9" font-weight="bold" text-anchor="middle" x="253" y="234">Q</text>
-      <text font-family="SansSerif" font-size="9" font-weight="bold" text-anchor="middle" x="177" y="263">EN</text>
+      <text font-family="SansSerif" font-size="9" font-weight="bold" text-anchor="middle" x="177" y="263">SET</text>
       <path d="M211,201 Q215,211 219,201" fill="none" stroke="#808080" stroke-width="2"/>
       <circ-port height="8" pin="40,40" width="8" x="186" y="226"/>
       <circ-port height="8" pin="40,70" width="8" x="186" y="256"/>
@@ -2629,11 +2629,11 @@
       <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(100,40)" name="Tunnel">
-      <a name="label" val="set"/>
+      <a name="label" val="data"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
     <comp lib="0" loc="(100,70)" name="Tunnel">
-      <a name="label" val="enable"/>
+      <a name="label" val="set"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
     <comp lib="4" loc="(170,150)" name="Register">
@@ -2649,12 +2649,12 @@
     </comp>
     <comp lib="0" loc="(70,150)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="set"/>
+      <a name="label" val="data"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
     <comp lib="0" loc="(70,170)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="enable"/>
+      <a name="label" val="set"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
     <comp lib="0" loc="(250,150)" name="Pin">
@@ -37502,6 +37502,7 @@
     <wire from="(2520,740)" to="(2810,740)"/>
     <wire from="(2520,420)" to="(2810,420)"/>
     <wire from="(2520,1060)" to="(2810,1060)"/>
+    <wire from="(1600,200)" to="(1630,200)"/>
     <wire from="(660,1520)" to="(670,1520)"/>
     <wire from="(290,100)" to="(360,100)"/>
     <wire from="(2860,690)" to="(2860,730)"/>
@@ -37532,9 +37533,11 @@
     <wire from="(2520,790)" to="(2760,790)"/>
     <wire from="(2520,470)" to="(2760,470)"/>
     <wire from="(2520,1110)" to="(2760,1110)"/>
+    <wire from="(1600,170)" to="(1630,170)"/>
     <wire from="(660,1810)" to="(670,1810)"/>
     <wire from="(670,1510)" to="(670,1520)"/>
     <wire from="(890,2050)" to="(890,2060)"/>
+    <wire from="(1940,90)" to="(1940,170)"/>
     <wire from="(230,1550)" to="(230,1560)"/>
     <wire from="(2820,490)" to="(2890,490)"/>
     <wire from="(2820,1130)" to="(2890,1130)"/>
@@ -37572,6 +37575,7 @@
     <wire from="(2170,850)" to="(2190,850)"/>
     <wire from="(1140,1150)" to="(1140,1180)"/>
     <wire from="(670,1960)" to="(670,1990)"/>
+    <wire from="(1680,170)" to="(1730,170)"/>
     <wire from="(1260,210)" to="(1260,350)"/>
     <wire from="(2890,340)" to="(2890,350)"/>
     <wire from="(590,1670)" to="(610,1670)"/>
@@ -37587,6 +37591,7 @@
     <wire from="(890,1510)" to="(890,1520)"/>
     <wire from="(450,1550)" to="(450,1560)"/>
     <wire from="(250,480)" to="(250,690)"/>
+    <wire from="(1750,170)" to="(1940,170)"/>
     <wire from="(450,1710)" to="(450,1740)"/>
     <wire from="(190,100)" to="(230,100)"/>
     <wire from="(1180,670)" to="(1620,670)"/>
@@ -37652,6 +37657,7 @@
     <wire from="(880,1560)" to="(890,1560)"/>
     <wire from="(290,80)" to="(360,80)"/>
     <wire from="(430,550)" to="(490,550)"/>
+    <wire from="(1940,230)" to="(1940,260)"/>
     <wire from="(890,1260)" to="(890,1270)"/>
     <wire from="(450,1300)" to="(450,1310)"/>
     <wire from="(2170,570)" to="(2190,570)"/>
@@ -37670,6 +37676,7 @@
     <wire from="(1170,100)" to="(1370,100)"/>
     <wire from="(370,1170)" to="(390,1170)"/>
     <wire from="(170,490)" to="(190,490)"/>
+    <wire from="(1970,210)" to="(1990,210)"/>
     <wire from="(2850,1070)" to="(2890,1070)"/>
     <wire from="(2850,750)" to="(2890,750)"/>
     <wire from="(2850,430)" to="(2890,430)"/>
@@ -37704,6 +37711,7 @@
     <wire from="(1380,90)" to="(1380,110)"/>
     <wire from="(1170,190)" to="(1280,190)"/>
     <wire from="(960,790)" to="(960,800)"/>
+    <wire from="(1940,170)" to="(1940,190)"/>
     <wire from="(1170,200)" to="(1270,200)"/>
     <wire from="(2170,670)" to="(2190,670)"/>
     <wire from="(2170,510)" to="(2190,510)"/>
@@ -37717,6 +37725,7 @@
     <wire from="(1170,220)" to="(1250,220)"/>
     <wire from="(590,1170)" to="(610,1170)"/>
     <wire from="(230,1920)" to="(260,1920)"/>
+    <wire from="(1600,90)" to="(1730,90)"/>
     <wire from="(1250,370)" to="(1390,370)"/>
     <wire from="(170,590)" to="(190,590)"/>
     <wire from="(220,1770)" to="(230,1770)"/>
@@ -37727,7 +37736,6 @@
     <wire from="(2800,530)" to="(2890,530)"/>
     <wire from="(2800,850)" to="(2890,850)"/>
     <wire from="(2800,1170)" to="(2890,1170)"/>
-    <wire from="(2160,150)" to="(2180,150)"/>
     <wire from="(450,2010)" to="(450,2020)"/>
     <wire from="(1290,290)" to="(1390,290)"/>
     <wire from="(2490,1130)" to="(2500,1130)"/>
@@ -37751,7 +37759,6 @@
     <wire from="(2820,730)" to="(2820,810)"/>
     <wire from="(660,2020)" to="(670,2020)"/>
     <wire from="(290,120)" to="(360,120)"/>
-    <wire from="(2130,170)" to="(2130,200)"/>
     <wire from="(890,1300)" to="(890,1310)"/>
     <wire from="(2170,610)" to="(2190,610)"/>
     <wire from="(2170,450)" to="(2190,450)"/>
@@ -37781,6 +37788,7 @@
     <wire from="(230,2050)" to="(230,2060)"/>
     <wire from="(1330,140)" to="(1330,210)"/>
     <wire from="(670,1210)" to="(670,1240)"/>
+    <wire from="(1750,90)" to="(1940,90)"/>
     <wire from="(160,640)" to="(190,640)"/>
     <wire from="(940,790)" to="(960,790)"/>
     <wire from="(600,450)" to="(620,450)"/>
@@ -37790,7 +37798,6 @@
     <wire from="(150,1920)" to="(170,1920)"/>
     <wire from="(440,2060)" to="(450,2060)"/>
     <wire from="(220,1520)" to="(230,1520)"/>
-    <wire from="(2130,110)" to="(2130,130)"/>
     <wire from="(880,2020)" to="(890,2020)"/>
     <wire from="(1250,220)" to="(1250,370)"/>
     <wire from="(450,1760)" to="(450,1770)"/>
@@ -37852,6 +37859,11 @@
     </comp>
     <comp lib="0" loc="(700,1200)" name="Tunnel">
       <a name="label" val="load r2"/>
+      <a name="labelfont" val="Fira Code plain 12"/>
+    </comp>
+    <comp lib="0" loc="(1740,180)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="en carry"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
     <comp lib="0" loc="(610,1990)" name="Tunnel">
@@ -38115,6 +38127,11 @@
       <a name="label" val="bus"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
+    <comp lib="0" loc="(1600,90)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="flag carry out"/>
+      <a name="labelfont" val="Fira Code plain 12"/>
+    </comp>
     <comp lib="0" loc="(240,2000)" name="Tunnel">
       <a name="width" val="16"/>
       <a name="label" val="bus"/>
@@ -38204,6 +38221,7 @@
       <a name="label" val="segment"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
+    <comp lib="1" loc="(1750,170)" name="Controlled Buffer"/>
     <comp lib="0" loc="(2500,810)" name="Splitter">
       <a name="fanout" val="16"/>
       <a name="incoming" val="16"/>
@@ -38309,11 +38327,6 @@
       <a name="facing" val="east"/>
       <a name="width" val="16"/>
       <a name="label" val="r3 out"/>
-      <a name="labelfont" val="Fira Code plain 12"/>
-    </comp>
-    <comp lib="0" loc="(2130,200)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="carry in"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
     <comp lib="0" loc="(2190,390)" name="Tunnel">
@@ -38587,7 +38600,9 @@
       <a name="label" val="save r5"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
-    <comp loc="(910,830)" name="16 bit accumulator"/>
+    <comp loc="(910,830)" name="16 bit accumulator">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(450,1210)" name="OR Gate">
       <a name="facing" val="west"/>
       <a name="size" val="30"/>
@@ -38618,6 +38633,7 @@
       <a name="label" val="set carry"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
+    <comp lib="1" loc="(1750,90)" name="Controlled Buffer"/>
     <comp lib="0" loc="(460,1540)" name="Tunnel">
       <a name="width" val="16"/>
       <a name="label" val="segment"/>
@@ -38762,6 +38778,11 @@
       <a name="label" val="bus"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
+    <comp lib="0" loc="(1740,100)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="en arith carry"/>
+      <a name="labelfont" val="Fira Code plain 12"/>
+    </comp>
     <comp lib="0" loc="(2890,330)" name="Tunnel">
       <a name="label" val="load r0"/>
       <a name="labelfont" val="Fira Code plain 12"/>
@@ -38820,7 +38841,9 @@
       <a name="label" val="load r10"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
-    <comp loc="(950,390)" name="16 bit lower mask"/>
+    <comp loc="(950,390)" name="16 bit lower mask">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(680,1250)" name="Tunnel">
       <a name="width" val="16"/>
       <a name="label" val="bus"/>
@@ -38838,7 +38861,9 @@
       <a name="label" val="load r15"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
-    <comp loc="(950,230)" name="16 bit bus1"/>
+    <comp loc="(950,230)" name="16 bit bus1">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(2890,930)" name="Tunnel">
       <a name="label" val="save r0"/>
       <a name="labelfont" val="Fira Code plain 12"/>
@@ -38867,11 +38892,6 @@
     <comp lib="1" loc="(460,2000)" name="Controlled Buffer">
       <a name="width" val="16"/>
     </comp>
-    <comp lib="0" loc="(2130,110)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="carry out"/>
-      <a name="labelfont" val="Fira Code plain 12"/>
-    </comp>
     <comp lib="0" loc="(370,1920)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="16"/>
@@ -38890,6 +38910,11 @@
     </comp>
     <comp lib="0" loc="(920,1450)" name="Tunnel">
       <a name="label" val="load r7"/>
+      <a name="labelfont" val="Fira Code plain 12"/>
+    </comp>
+    <comp lib="0" loc="(1600,200)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="set carry"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
     <comp lib="1" loc="(890,1960)" name="OR Gate">
@@ -38969,6 +38994,11 @@
       <a name="label" val="com3"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
+    <comp lib="0" loc="(1600,170)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="carry out"/>
+      <a name="labelfont" val="Fira Code plain 12"/>
+    </comp>
     <comp lib="0" loc="(260,1220)" name="Tunnel">
       <a name="label" val="sel r0"/>
       <a name="labelfont" val="Fira Code plain 12"/>
@@ -39008,6 +39038,11 @@
       <a name="incoming" val="16"/>
       <a name="appear" val="right"/>
     </comp>
+    <comp lib="0" loc="(1940,260)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="carry in"/>
+      <a name="labelfont" val="Fira Code plain 12"/>
+    </comp>
     <comp lib="0" loc="(480,1670)" name="Tunnel">
       <a name="width" val="16"/>
       <a name="label" val="r9 out"/>
@@ -39033,7 +39068,9 @@
       <a name="label" val="IR"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
-    <comp loc="(950,150)" name="16 bit temp"/>
+    <comp loc="(950,150)" name="16 bit temp">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(420,1150)" name="Pin">
       <a name="facing" val="south"/>
       <a name="output" val="true"/>
@@ -39055,11 +39092,6 @@
       <a name="facing" val="west"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(1620,90)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="flag carry out"/>
-      <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
     <comp lib="1" loc="(230,1960)" name="OR Gate">
       <a name="facing" val="west"/>
@@ -39308,7 +39340,9 @@
       <a name="label" val="save ram"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
-    <comp loc="(950,310)" name="16 bit clear"/>
+    <comp loc="(950,310)" name="16 bit clear">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(880,1770)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="load r11"/>
@@ -39354,6 +39388,10 @@
     <comp lib="0" loc="(880,1560)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="sel r7"/>
+      <a name="labelfont" val="Fira Code plain 12"/>
+    </comp>
+    <comp lib="0" loc="(1990,210)" name="Tunnel">
+      <a name="label" val="tmp1"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
     <comp lib="1" loc="(900,1790)" name="Controlled Buffer">
@@ -39500,6 +39538,9 @@
       <a name="label" val="com5"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
+    <comp loc="(1940,230)" name="1 bit temp">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(900,1500)" name="Tunnel">
       <a name="width" val="16"/>
       <a name="label" val="bus"/>
@@ -39576,7 +39617,6 @@
       <a name="label" val="save r2"/>
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
-    <comp loc="(2130,170)" name="1 bit temp"/>
     <comp lib="0" loc="(2890,910)" name="Tunnel">
       <a name="label" val="save r0"/>
       <a name="labelfont" val="Fira Code plain 12"/>
@@ -39622,10 +39662,6 @@
       <a name="labelfont" val="Fira Code plain 12"/>
     </comp>
     <comp loc="(890,1670)" name="16 bit register"/>
-    <comp lib="0" loc="(2180,150)" name="Tunnel">
-      <a name="label" val="tmp1"/>
-      <a name="labelfont" val="Fira Code plain 12"/>
-    </comp>
     <comp lib="0" loc="(440,1750)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="width" val="16"/>
