@@ -54,7 +54,7 @@ My Self-Made CPU with Logisim inside *cpu.circ*
     4. **sum** : East edge, upper pin. (output, bit width 1)
     5. **carry out** : East edge, lower pin. (output, bit width 1)
 
-3. 8 bit full adder
+### 3. 8 bit full adder
 - Inputs: **A** of 8-bit, **B** of 8-bit, **carry in** of 1-bit.
 - Outputs: **sum** of 8-bit, **carry out** of 1-bit.
 - Philosophy behind it: it consists of multiple previous ***full adder*** we've defined beforehand.
@@ -66,7 +66,7 @@ My Self-Made CPU with Logisim inside *cpu.circ*
     4. **sum** : East edge, upper pin. (output, bit width 8)
     5. **carry out** : East edge, lower pin. (output, bit width 1)
 
-4. 16 bit full adder
+### 4. 16 bit full adder
 - Pin:
     1. **A** : West edge, upper pin. (input, bit width 16)
     2. **B** : West edge, middle pin. (input, bit width 16)
@@ -74,7 +74,7 @@ My Self-Made CPU with Logisim inside *cpu.circ*
     4. **sum** : East edge, upper pin. (output, bit width 16)
     5. **carry out** : East edge, lower pin. (output, bit width 1)
 
-5. 16 bit full subtractor
+### 5. 16 bit full subtractor
 - Pin:
     1. **A** : West edge, upper pin. (input, bit width 16)
     2. **B** : West edge, middle pin. (input, bit width 16)
@@ -82,35 +82,88 @@ My Self-Made CPU with Logisim inside *cpu.circ*
     4. **sum** : East edge, upper pin. (output, bit width 16)
     5. **carry out** : East edge, lower pin. (output, bit width 1)
 
-6. 16 bit 2's complement
+### 6. 16 bit 2's complement
 - Pin:
     1. **IN** : North edge. (input, bit width 16)
     2. **EN** : East edge. (input, bit width 1) 
     3. **OUT** : South edge. (input, bit width 16)
 
-7. 1 bit memory cell
+### 7. 1 bit memory cell
 - Pin:
     1. **IN** : West edge, upper pin. (input, bit width 1)
     2. **SET** : West edge, lower pin. (input, bit width 1)
     3. **Q** : East edge. (output, bit width 1)
 
-8. 1 byte (8 bit) memory cell
+### 8. 1 byte (8 bit) memory cell
 - Pin:
     1. **IN** : West edge, upper pin. (input, bit width 8)
     2. **EN** : West edge, lower pin. (input, bit width 1)
     3. **Q** : East edge. (output, bit width 8)
 
-9. 2 byte (16 bit) memory cell
+### 9. 2 byte (16 bit) memory cell
 - Pin:
     1. **IN** : West edge, upper pin. (input, bit width 16)
     2. **EN** : West edge, lower pin. (input, bit width 1)
     3. **Q** : East edge. (output, bit width 16)
 
-10. 3 byte (24 bit) memory cell
+### 10. 3 byte (24 bit) memory cell
 - Pin:
     1. **IN** : West edge, upper pin. (input, bit width 24)
     2. **EN** : West edge, lower pin. (input, bit width 1)
     3. **Q** : East edge. (output, bit width 24)
+
+### 11. 8 bit enable cell
+
+### 12. 16 bit enable cell
+
+### 13. 8 bit register
+
+### 14. 16 bit register
+
+### 15. 24 bit register
+
+### 16. 2x4 decoder
+
+### 17. 3x8 decoder
+
+### 18. 4x16 decoder
+
+### 19. 8 bit reverter
+
+### 20. 16 bit reverter
+
+### 21. 8 bit negator
+
+### 22. 16 bit negator
+
+### 23. 8 bit right shifter
+
+### 24. 16 bit right shifter
+
+### 25. 8 bit left shifter
+
+### 26. 16 bit left shifter
+
+### 27. 1 bit comparator
+
+### 28. 8 bit comparator
+
+### 29. 16 bit comparator
+
+### 30. 8 bit bus1
+
+### 31. 16 bit bus1
+
+
+
+
+
+
+
+
+
+
+
 
 
 
