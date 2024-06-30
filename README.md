@@ -6,7 +6,7 @@ My Self-Made CPU with Logisim inside *cpu.circ*
 
 # Each file explanation 
 
-1. half adder
+### 1. half adder
 - Behavior:
 - 1-bit half adder, which takes two inputs **A** (1-bit) and **B** (1-bit).
 - output **sum** (1-bit)
@@ -26,7 +26,7 @@ My Self-Made CPU with Logisim inside *cpu.circ*
     3. **sum** : East edge, upper pin. (output, bit width 1)
     4. **carry** : East edge, lower pin. (output, bit width 1)
 
-2. full adder
+### 2. full adder
 - 1-bit full adder, which takes three inputs **A**, **B**, and **carry in**
 - two 1-bit outputs **sum** and **carry out**
 - Possible values:
