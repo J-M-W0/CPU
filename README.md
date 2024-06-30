@@ -113,28 +113,72 @@ My Self-Made CPU with Logisim inside *cpu.circ*
     3. **Q** : East edge. (output, bit width 24)
 
 ### 11. 8 bit enable cell
+- Pin:
+    1. **IN** : West edge, upper pin. (input, bit width 8)
+    2. **EN** : West edge, lower pin. (input, bit width 1)
+    3. **OUT** : East edge. (output, bit width 8)
 
 ### 12. 16 bit enable cell
+- Pin:
+    1. **IN** : West edge, upper pin. (input, bit width 16)
+    2. **EN** : West edge, lower pin. (input, bit width 1)
+    3. **OUT** : East edge. (output, bit width 16)
 
 ### 13. 8 bit register
+- Pin:
+    1. **IN** : West edge, upper pin. (input, bit width 8)
+    2. **SET** : West edge, lower pin. (input, bit width 1)
+    3. **EN** : East edge, lower pin. (input, bit width 1)
+    4. **OUT** : East edge, upper pin. (output, bit width 8)
+    5. North pin : display the value inside register. (output, bit width 8)
 
 ### 14. 16 bit register
+- Pin:
+    1. **IN** : West edge, upper pin. (input, bit width 16)
+    2. **SET** : West edge, lower pin. (input, bit width 1)
+    3. **EN** : East edge, lower pin. (input, bit width 1)
+    4. **OUT** : East edge, upper pin. (output, bit width 16)
+    5. North pin : display the value inside register. (output, bit width 16)
 
 ### 15. 24 bit register
+- Pin:
+    1. **IN** : West edge, upper pin. (input, bit width 24)
+    2. **SET** : West edge, lower pin. (input, bit width 1)
+    3. **EN** : East edge, lower pin. (input, bit width 1)
+    4. **OUT** : East edge, upper pin. (output, bit width 24)
+    5. North pin : display the value inside register. (output, bit width 24)
 
 ### 16. 2x4 decoder
-
 ### 17. 3x8 decoder
-
 ### 18. 4x16 decoder
 
 ### 19. 8 bit reverter
+- Behavior:
+    - it will revert the input, e.g. 1000 0001 ==> 0111 1110
+- Pin:
+    1. West edge. (input, bit width 8)
+    2. East edge. (output, bit width 8)
 
 ### 20. 16 bit reverter
+- Behavior:
+    - it will revert the input, e.g. 0001 0001 0001 0001 ==> 1000 1000 1000 1000
+- Pin:
+    1. West edge. (input, bit width 16)
+    2. East edge. (output, bit width 16)
 
 ### 21. 8 bit negator
+- Behavior:
+    - it will flip the MSB.
+- Pin:
+    1. West edge. (input, bit width 8)
+    2. East edge. (output, bit width 8)
 
 ### 22. 16 bit negator
+- Behavior:
+    - it will flip the MSB.
+- Pin:
+    1. West edge. (input, bit width 16)
+    2. East edge. (output, bit width 16)
 
 ### 23. 8 bit right shifter
 
