@@ -154,12 +154,65 @@ My Self-Made CPU with Logisim inside *cpu.circ*
 
 ### 31. 16 bit bus1
 
+### 32. 16 bit clear
 
+### 33. 1 bit temp
 
+### 34. 8 bit temp
 
+### 35. 16 bit temp
 
+### 36. 16 bit lower mask
 
+### 37. 8 bit accumulator
 
+### 38. 16 bit accumulator
+
+### 39. 8 bit AND
+
+### 40. 16 bit AND
+
+### 41. 8 bit OR
+
+### 42. 16 bit OR
+
+### 43. 8 bit XOR
+
+### 44. 16 bit XOR
+
+### 45. 8 bit zero checker
+
+### 46. 16 bit zero checker
+
+### 47. 16 bit parity check
+
+### 48. 16 bit negativity check
+
+### 49. 16 bit positivity check
+
+### 50. 8 bit ALU
+
+### 51. 16 bit ALU
+
+### 52. cpu clock
+
+### 53. 8-step stepper
+
+### 54. 16-step stepper
+
+### 55. 16 bit FLAGS
+
+### 56. 16 bit IR
+
+### 57. 7 segement display demo
+
+### 58. counter
+
+### 59. cpu control section
+
+### 60. cpu
+
+### 61. cpu demo
 
 
 
