@@ -3,6 +3,7 @@ My Self-Made CPU with Logisim inside *cpu.circ*
 
 # How to view it?
 - To open the file *cpu.cir* with the application ***Logisim***. Which is a free software written in Java.
+- [demo](https://youtu.be/sKxlbndWQQM)
 
 # Each file explanation 
 
