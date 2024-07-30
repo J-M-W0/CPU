@@ -385,7 +385,7 @@ clk set:
 2. Instructions
     The underline (_) is usually considered as 0 for don't care.
     And the data bus bit width is 16 bit.
-
+```txt
     high bits -> low bits
     0000 0000 aaaa bbbb
     @expr
@@ -2547,7 +2547,7 @@ NOTE:
         END
     @brief
     @flow
-
+```
 
 ## Demonstration Video
 - To open the file *cpu.cir* with the application ***Logisim***. Which is a free software written in Java.
